@@ -1,7 +1,7 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: aqua;
-    color: rgb(0, 0, 0);
+    background-color: #fffaf3;
+    color:#222222;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-    background-color: #1f1f1f;
+    background-color : #9c27b0;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
 }
 
 .navbar a {
-    color: #fff;
+    color: #ffb74d;
     text-decoration: none;
     padding: 14px 20px;
     transition: opacity 0.5s ease-in-out, transform 0.3s ease;
@@ -36,6 +36,7 @@ body {
 .navbar a:hover {
     opacity: 0.7;
     transform: scale(1.05);
+    color: #ff9800;
 }
 
 @media (max-width: 600px) {
